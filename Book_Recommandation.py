@@ -32,11 +32,11 @@ import dill as pickle
 from joblib import dump, load
 
 
-import psycopg2
-from urllib.parse import urlparse
+#import psycopg2
+#from urllib.parse import urlparse
 
-import findspark
-findspark.init()
+#import findspark
+#findspark.init()
 #İgnore Error
 import warnings
 warnings.simplefilter(action="ignore")
